@@ -1,0 +1,11 @@
+H:\GitHub\student-grade-profile-application\bin\Debug\netcoreapp2.1\student-grade-profile-application.deps.json
+H:\GitHub\student-grade-profile-application\bin\Debug\netcoreapp2.1\student-grade-profile-application.runtimeconfig.json
+H:\GitHub\student-grade-profile-application\bin\Debug\netcoreapp2.1\student-grade-profile-application.runtimeconfig.dev.json
+H:\GitHub\student-grade-profile-application\bin\Debug\netcoreapp2.1\student-grade-profile-application.dll
+H:\GitHub\student-grade-profile-application\bin\Debug\netcoreapp2.1\student-grade-profile-application.pdb
+H:\GitHub\student-grade-profile-application\obj\Debug\netcoreapp2.1\student-grade-profile-application.csprojAssemblyReference.cache
+H:\GitHub\student-grade-profile-application\obj\Debug\netcoreapp2.1\student-grade-profile-application.csproj.CoreCompileInputs.cache
+H:\GitHub\student-grade-profile-application\obj\Debug\netcoreapp2.1\student-grade-profile-application.AssemblyInfoInputs.cache
+H:\GitHub\student-grade-profile-application\obj\Debug\netcoreapp2.1\student-grade-profile-application.AssemblyInfo.cs
+H:\GitHub\student-grade-profile-application\obj\Debug\netcoreapp2.1\student-grade-profile-application.dll
+H:\GitHub\student-grade-profile-application\obj\Debug\netcoreapp2.1\student-grade-profile-application.pdb
