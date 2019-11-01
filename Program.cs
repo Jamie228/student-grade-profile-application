@@ -6,7 +6,9 @@ namespace student_grade_profile_application
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Student student1 = new Student("John","Williams","Computing and Information Systems", "Male", "22082000", "1804492");
+            student1.PrintData();
         }
+
     }
 }
