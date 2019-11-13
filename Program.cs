@@ -23,6 +23,11 @@ namespace student_grade_profile_application
               student.PrintData();
             }
 
+            student1.Create1GradeProfile();
+            student2.Create2GradeProfile();
+
+            
+
 
 
         }

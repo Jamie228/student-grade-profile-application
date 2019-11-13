@@ -11,5 +11,15 @@ namespace student_grade_profile_application
             this.course = course;
             this.module = module;
         }
+
+        /*public decimal Average(int year)
+        {
+            decimal avg;
+
+            foreach (Grade grade in grades)
+            {
+
+            }*/
+        }
     }
 }
