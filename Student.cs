@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace student_grade_profile_application
 {
@@ -28,12 +29,12 @@ namespace student_grade_profile_application
 
         public void Create1GradeProfile()
         {
-            GradeProfile student1UID = new GradeProfile("Computing and Information Systems", "User Interface Design");
+            List<Grade> gradeProfile = new List<Grade>();
         }
 
         public void Create2GradeProfile()
         {
-            GradeProfile student2ADD = new GradeProfile("Computing and Information Systems", "Advanced Database Design");
+            List<Grade> gradeProfile = new List<Grade>();
         }
     }
 }

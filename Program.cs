@@ -7,8 +7,6 @@ namespace student_grade_profile_application
     {
         static void Main(string[] args)
         {
-
-
             Student student1 = new Student("John","Williams","Computing and Information Systems", "Male", "22082000", "1804492");
 
             Student student2 = new Student("Sarah", "Smith", "Computing and Information Systems", "Female", "06121999", "1807794");
@@ -24,12 +22,41 @@ namespace student_grade_profile_application
             }
 
             student1.Create1GradeProfile();
-            student2.Create2GradeProfile();
 
-            
+            DrawMenu();
+        }
 
+        public static void DrawMenu()
+        {
+            Console.WriteLine("**** MENU ****");
+            Console.WriteLine("1.   View Report");
+            Console.WriteLine("2.   Calculate Student Average");
+            Console.WriteLine("3.   Add Grade");
+            Console.WriteLine("**************");
 
+            Program.MainMenu();
+        }
 
+        public static void MainMenu()
+        {
+            int mainMenuChoice = 0;
+
+            mainMenuChoice = Convert.ToInt32(Console.ReadLine());
+
+            switch (mainMenuChoice)
+            {
+                case 1:
+                    Console.Clear();
+                    break;
+                case 2:
+                    Console.Clear();
+                    break;
+                case 3:
+                    Console.Clear();
+                    break;
+                default:
+                    break;
+            }
         }
 
     }
