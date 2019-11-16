@@ -12,6 +12,8 @@ namespace student_grade_profile_application
             string dateOfBirth;
             public string studentID;
 
+            GradeProfile gradeProfileList = new GradeProfile();
+
         public Student(string firstName, string lastName, string course, string gender, string dateOfBirth, string studentID)
         {
             this.firstName = firstName;
@@ -27,14 +29,6 @@ namespace student_grade_profile_application
             Console.WriteLine($"First Name: {firstName}\nLast Name: {lastName}\nDate of Birth: {dateOfBirth}\nGender: {gender}\nStudent ID: {studentID}\nCourse: {course}");
         }
 
-        public void Create1GradeProfile()
-        {
-            List<Grade> gradeProfile = new List<Grade>();
-        }
 
-        public void Create2GradeProfile()
-        {
-            List<Grade> gradeProfile = new List<Grade>();
-        }
     }
 }
