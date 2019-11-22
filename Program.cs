@@ -7,55 +7,34 @@ namespace student_grade_profile_application
     {
         static void Main(string[] args)
         {
-            Student student1 = new Student("John","Williams","Computing and Information Systems", "Male", "22082000", "1804492");
+            GradeProfile gradeProfile = new GradeProfile();
+            
+            Student student1 = new Student("John","Williams","Computing and Information Systems", "Male", "22082000", "1804492", gradeProfile);
 
-            Student student2 = new Student("Sarah", "Smith", "Computing and Information Systems", "Female", "06121999", "1807794");
+            Student student2 = new Student("Sarah", "Smith", "Computing and Information Systems", "Female", "06121999", "1807794", gradeProfile);
 
             List <Student> students = new List<Student>();
 
             students.Add(student1);
             students.Add(student2);
 
+            Grade gradeTest = new Grade("010", "ADD", 75, 0.7m, 2019);
+            Grade gradeTest2 = new Grade("011", "ADD", 62, 0.3m, 2019);
+
+            student1.gradeProfile.AddGrade(gradeTest);
+            student1.gradeProfile.AddGrade(gradeTest2);
+            student2.gradeProfile.AddGrade(gradeTest);
+
             foreach(Student student in students)
             {
               student.PrintData();
             }
 
-            DrawMenu();
+            student1.gradeProfile.DisplayGrades();
+            Console.WriteLine();
+            student2.gradeProfile.DisplayGrades();
+
+            Console.WriteLine(student1.gradeProfile.Avg(2019));
         }
-
-        public static void DrawMenu()
-        {
-            Console.WriteLine("**** MENU ****");
-            Console.WriteLine("1.   View Report");
-            Console.WriteLine("2.   Calculate Student Average");
-            Console.WriteLine("3.   Add Grade");
-            Console.WriteLine("**************");
-
-            Program.MainMenu();
-        }
-
-        public static void MainMenu()
-        {
-            int mainMenuChoice = 0;
-
-            mainMenuChoice = Convert.ToInt32(Console.ReadLine());
-
-            switch (mainMenuChoice)
-            {
-                case 1:
-                    Console.Clear();
-                    break;
-                case 2:
-                    Console.Clear();
-                    break;
-                case 3:
-                    Console.Clear();
-                    break;
-                default:
-                    break;
-            }
-        }
-
     }
 }

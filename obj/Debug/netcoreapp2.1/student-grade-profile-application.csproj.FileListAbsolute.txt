@@ -19,3 +19,14 @@ C:\Users\jamie\OneDrive\Documents\GitHub\student-grade-profile-application\bin\D
 C:\Users\jamie\OneDrive\Documents\GitHub\student-grade-profile-application\bin\Debug\netcoreapp2.1\student-grade-profile-application.runtimeconfig.dev.json
 C:\Users\jamie\OneDrive\Documents\GitHub\student-grade-profile-application\bin\Debug\netcoreapp2.1\student-grade-profile-application.dll
 C:\Users\jamie\OneDrive\Documents\GitHub\student-grade-profile-application\bin\Debug\netcoreapp2.1\student-grade-profile-application.pdb
+C:\Users\P110103851\Documents\GitHub\student-grade-profile-application\obj\Debug\netcoreapp2.1\student-grade-profile-application.csprojAssemblyReference.cache
+C:\Users\P110103851\Documents\GitHub\student-grade-profile-application\obj\Debug\netcoreapp2.1\student-grade-profile-application.csproj.CoreCompileInputs.cache
+C:\Users\P110103851\Documents\GitHub\student-grade-profile-application\obj\Debug\netcoreapp2.1\student-grade-profile-application.AssemblyInfoInputs.cache
+C:\Users\P110103851\Documents\GitHub\student-grade-profile-application\obj\Debug\netcoreapp2.1\student-grade-profile-application.AssemblyInfo.cs
+C:\Users\P110103851\Documents\GitHub\student-grade-profile-application\obj\Debug\netcoreapp2.1\student-grade-profile-application.dll
+C:\Users\P110103851\Documents\GitHub\student-grade-profile-application\obj\Debug\netcoreapp2.1\student-grade-profile-application.pdb
+C:\Users\P110103851\Documents\GitHub\student-grade-profile-application\bin\Debug\netcoreapp2.1\student-grade-profile-application.deps.json
+C:\Users\P110103851\Documents\GitHub\student-grade-profile-application\bin\Debug\netcoreapp2.1\student-grade-profile-application.runtimeconfig.json
+C:\Users\P110103851\Documents\GitHub\student-grade-profile-application\bin\Debug\netcoreapp2.1\student-grade-profile-application.runtimeconfig.dev.json
+C:\Users\P110103851\Documents\GitHub\student-grade-profile-application\bin\Debug\netcoreapp2.1\student-grade-profile-application.dll
+C:\Users\P110103851\Documents\GitHub\student-grade-profile-application\bin\Debug\netcoreapp2.1\student-grade-profile-application.pdb

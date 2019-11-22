@@ -12,9 +12,9 @@ namespace student_grade_profile_application
             string dateOfBirth;
             public string studentID;
 
-            GradeProfile gradeProfileList = new GradeProfile();
+            public GradeProfile gradeProfile = new GradeProfile();
 
-        public Student(string firstName, string lastName, string course, string gender, string dateOfBirth, string studentID)
+        public Student(string firstName, string lastName, string course, string gender, string dateOfBirth, string studentID, GradeProfile gradeProfile)
         {
             this.firstName = firstName;
             this.lastName = lastName;
@@ -22,11 +22,13 @@ namespace student_grade_profile_application
             this.gender = gender;
             this.dateOfBirth = dateOfBirth;
             this.studentID = studentID;
+            
         }
 
         public void PrintData()
         {
-            Console.WriteLine($"First Name: {firstName}\nLast Name: {lastName}\nDate of Birth: {dateOfBirth}\nGender: {gender}\nStudent ID: {studentID}\nCourse: {course}");
+            Console.WriteLine($"First Name: {firstName}\nLast Name: {lastName}\nStudent ID: {studentID}\nCourse: {course}");
+            Console.WriteLine();
         }
 
 

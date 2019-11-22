@@ -6,9 +6,10 @@ namespace student_grade_profile_application
     {
         string assignment;
         string module;
-        int grade;
-        int yearOfStudy;
+        public int grade;
+        public int yearOfStudy;
         decimal weight;
+
         public Grade(string assignment, string module, int grade, decimal weight, int yearOfStudy)
         {
             this.assignment = assignment;
