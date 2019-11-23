@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jamie\\OneDrive\\Documents\\GitHub\\student-grade-profile-application\\student-grade-profile-application.csproj": {}
+    "C:\\Users\\jamie\\Documents\\GitHub\\student-grade-profile-application\\student-grade-profile-application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jamie\\OneDrive\\Documents\\GitHub\\student-grade-profile-application\\student-grade-profile-application.csproj": {
+    "C:\\Users\\jamie\\Documents\\GitHub\\student-grade-profile-application\\student-grade-profile-application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jamie\\OneDrive\\Documents\\GitHub\\student-grade-profile-application\\student-grade-profile-application.csproj",
+        "projectUniqueName": "C:\\Users\\jamie\\Documents\\GitHub\\student-grade-profile-application\\student-grade-profile-application.csproj",
         "projectName": "student-grade-profile-application",
-        "projectPath": "C:\\Users\\jamie\\OneDrive\\Documents\\GitHub\\student-grade-profile-application\\student-grade-profile-application.csproj",
+        "projectPath": "C:\\Users\\jamie\\Documents\\GitHub\\student-grade-profile-application\\student-grade-profile-application.csproj",
         "packagesPath": "C:\\Users\\jamie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jamie\\OneDrive\\Documents\\GitHub\\student-grade-profile-application\\obj\\",
+        "outputPath": "C:\\Users\\jamie\\Documents\\GitHub\\student-grade-profile-application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

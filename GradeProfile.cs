@@ -23,7 +23,14 @@ namespace student_grade_profile_application
         {
             decimal avg;
 
-            avg = gradeProfile.Average(gradeProfile.grade).Where(gradeProfile => gradeProfile.yearOfStudy == year);
+            List<int> averg = new List<int>();
+
+            foreach (Grade grade in gradeProfile.Where(gradeProfile => gradeProfile.yearOfStudy == year))
+            {
+                averg.Add(grade.grade);
+            }
+
+            avg = Convert.ToDecimal(averg.Average());
 
             return avg;
         }
