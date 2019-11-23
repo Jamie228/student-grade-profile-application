@@ -25,10 +25,15 @@ namespace student_grade_profile_application
             
         }
 
-        public void PrintData()
+        public void ReportCard()
         {
-            Console.WriteLine($"First Name: {firstName}\nLast Name: {lastName}\nStudent ID: {studentID}\nCourse: {course}");
             Console.WriteLine();
+            Console.WriteLine("*** REPORT ***");
+            Console.WriteLine($"Name: {lastName}, {firstName}");
+            Console.WriteLine($"Student ID: {studentID}");
+            Console.WriteLine();
+            Console.WriteLine("--- GRADES ---");
+            gradeProfile.ReportInfo();
         }
 
 

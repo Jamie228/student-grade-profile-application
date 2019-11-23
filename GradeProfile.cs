@@ -21,7 +21,6 @@ namespace student_grade_profile_application
         }
         public decimal Avg(int year)
         {
-            decimal avg;
 
             List<int> averg = new List<int>();
 
@@ -30,9 +29,19 @@ namespace student_grade_profile_application
                 averg.Add(grade.grade);
             }
 
-            avg = Convert.ToDecimal(averg.Average());
+            decimal avg = Convert.ToDecimal(averg.Average());
 
             return avg;
+        }
+
+        public void ReportInfo()
+        {
+            foreach (Grade grade in gradeProfile)
+            {
+                Console.WriteLine($"Module: {grade.module}");
+                Console.WriteLine($"Grade: {grade.grade}");
+                Console.WriteLine();
+            }
         }
     }
 }

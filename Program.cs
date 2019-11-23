@@ -18,23 +18,18 @@ namespace student_grade_profile_application
             students.Add(student1);
             students.Add(student2);
 
-            Grade gradeTest = new Grade("010", "ADD", 75, 0.7m, 2019);
-            Grade gradeTest2 = new Grade("011", "ADD", 62, 0.3m, 2019);
+            Grade grade1 = new Grade("ADD", 75, 0.7m, 2019);
+            Grade grade2 = new Grade("UID", 62, 0.3m, 2019);
+            Grade grade3 = new Grade("PC", 92, 1.0m, 2018);
+            Grade grade4 = new Grade("DAD", 54, 0.6m, 2019);
 
-            student1.gradeProfile.AddGrade(gradeTest);
-            student1.gradeProfile.AddGrade(gradeTest2);
-            student2.gradeProfile.AddGrade(gradeTest);
+            student1.gradeProfile.AddGrade(grade1);
+            student1.gradeProfile.AddGrade(grade2);
+            student2.gradeProfile.AddGrade(grade3);
+            student2.gradeProfile.AddGrade(grade4);
 
-            foreach(Student student in students)
-            {
-              student.PrintData();
-            }
-
-            student1.gradeProfile.DisplayGrades();
-            Console.WriteLine();
-            student2.gradeProfile.DisplayGrades();
-
-            Console.WriteLine(student1.gradeProfile.Avg(2019));
+            student1.ReportCard();
+            
         }
     }
 }
