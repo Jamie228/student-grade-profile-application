@@ -7,7 +7,7 @@ namespace student_grade_profile_application
         public string module;
         public int grade;
         public int yearOfStudy;
-        decimal weight;
+        public decimal weight;
 
         public Grade(string module, int grade, decimal weight, int yearOfStudy) //Grade constructor
         {

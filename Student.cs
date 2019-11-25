@@ -7,9 +7,9 @@ namespace student_grade_profile_application
     {
             protected string firstName;
             protected string lastName;
-            string course;
-            string gender;
-            string dateOfBirth;
+            protected string course;
+            protected string gender;
+            protected string dateOfBirth;
             public string studentID;
 
             public GradeProfile gradeProfile = new GradeProfile();
