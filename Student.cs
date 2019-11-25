@@ -14,7 +14,7 @@ namespace student_grade_profile_application
 
             public GradeProfile gradeProfile = new GradeProfile();
 
-        public Student(string firstName, string lastName, string course, string gender, string dateOfBirth, string studentID, GradeProfile gradeProfile)
+        public Student(string firstName, string lastName, string course, string gender, string dateOfBirth, string studentID, GradeProfile gradeProfile) //Student Constructor
         {
             this.firstName = firstName;
             this.lastName = lastName;
@@ -25,7 +25,7 @@ namespace student_grade_profile_application
             
         }
 
-        public void ReportCard()
+        public void ReportCard()    //Prints structure for student Report Card
         {
             Console.WriteLine();
             Console.WriteLine("*** REPORT ***");

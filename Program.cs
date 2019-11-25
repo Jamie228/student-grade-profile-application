@@ -29,6 +29,14 @@ namespace student_grade_profile_application
             student2.gradeProfile.AddGrade(grade4);
 
             student1.ReportCard();
+            Console.WriteLine();
+            student2.ReportCard();
+            Console.WriteLine();
+
+            Console.WriteLine("Enter year of study for Student 1 Average: ");
+            int userYear = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Student 1 Average for {userYear}: " + student1.gradeProfile.Avg(userYear));
+            
             
         }
     }

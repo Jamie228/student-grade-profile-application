@@ -22,16 +22,16 @@ namespace student_grade_profile_application
         public decimal Avg(int year)
         {
 
-            List<int> averg = new List<int>();
+            List<int> averg = new List<int>(); //Creates list
 
-            foreach (Grade grade in gradeProfile.Where(gradeProfile => gradeProfile.yearOfStudy == year))
+            foreach (Grade grade in gradeProfile.Where(gradeProfile => gradeProfile.yearOfStudy == year)) //Checks all values in gradeProfile where the year of study equals the passed in value
             {
-                averg.Add(grade.grade);
+                averg.Add(grade.grade); //Adds these to the list
             }
 
-            decimal avg = Convert.ToDecimal(averg.Average());
+            decimal avg = Convert.ToDecimal(averg.Average()); //Calculates average of the list
 
-            return avg;
+            return avg; //Returns the average
         }
 
         public void ReportInfo()
@@ -39,6 +39,7 @@ namespace student_grade_profile_application
             foreach (Grade grade in gradeProfile)
             {
                 Console.WriteLine($"Module: {grade.module}");
+                Console.WriteLine($"Year of Study: {grade.yearOfStudy}");
                 Console.WriteLine($"Grade: {grade.grade}");
                 Console.WriteLine();
             }

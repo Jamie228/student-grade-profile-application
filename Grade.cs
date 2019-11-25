@@ -9,7 +9,7 @@ namespace student_grade_profile_application
         public int yearOfStudy;
         decimal weight;
 
-        public Grade(string module, int grade, decimal weight, int yearOfStudy)
+        public Grade(string module, int grade, decimal weight, int yearOfStudy) //Grade constructor
         {
             this.module = module;
             this.grade = grade;
